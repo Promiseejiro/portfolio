@@ -1,0 +1,307 @@
+.main_container{
+  background-color: var(--dark-color);
+  margin-bottom: 2rem;
+}
+
+.white{
+  background-color: white;
+}
+
+.red{
+  background-color: red;
+}
+
+.hero_section{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dxqg5hify/image/upload/v1691327439/image-1__1_-removebg-preview_1691310334102-removebg-preview_wxcx6d.png");
+  background-color: var(--dark-color);
+  background-repeat: no-repeat;
+}
+
+.hero_overlay{
+  position: absolute;
+  left:0;
+  top:0;
+  background-color: var(--overlay-color);
+  height: 100%;
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+padding: 1rem 2rem;
+}
+
+.hero_overlay p ,.hero_overlay h1, .hero_overlay h4{
+  color:var(--white-color);
+}
+
+.hero_overlay h4{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.hero_overlay h4 span{
+  color:var(--blue-color);
+}
+
+.hero_overlay p{
+  max-width: 70%;
+}
+
+.hero_overlay p span{
+  color:var(--blue-color);
+}
+
+.details{
+  border: .1px solid var(--border-color);
+  margin:2rem;
+  font-size:15px;
+}
+
+.details img{
+  width: 6rem;
+  height: auto;
+  display: block;
+  margin:1rem auto;
+}
+
+.details p{
+  text-align: center;
+  color:var(--gray-color);
+  padding: .3rem 1rem;
+}
+
+.details p span{
+  color:var(--blue-color);
+}
+
+.details .discription{
+  margin:1rem 0;
+}
+
+.details .btn_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.details a{
+  border:2px solid var(--blue-color);
+  color:var(--blue-color);
+  font-weight: 500;
+  padding:.5rem 2rem;
+  text-align: center;
+}
+
+.sub_heading{
+  font-size:24px;
+  font-weight: 600;
+  color:var(--white-color);
+  margin:1rem 0;
+}
+
+.services_section{
+  padding: 2rem;
+}
+
+.services_section .card{
+  border:.1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+  padding: 1rem;
+  margin:3rem 0;
+}
+
+
+.services_section .icons{
+  color:var(--blue-color);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.services_section h4{
+  font-size: 20px;
+  color:var(--white-color);
+  margin: 1rem;
+}
+
+.services_section p{
+  text-align: center;color:var(--gray-color);
+}
+
+.expirence_section{
+  margin:2rem;
+}
+
+.expirence_section .card{
+  margin:3rem 0;
+  border: .1px solid var(--border-color);
+  padding:2rem 1rem;
+}
+
+.expirence_section .card h4{
+  Color:var(--white-color);
+  font-size: 18px;
+  font-weight: 500;
+  margin:.5rem 0;
+}
+
+.expirence_section .card p{
+  color: var(--gray-color);
+}
+
+.expirence_section .card span{
+  color:var(--blue-color);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.frameworks{
+  margin:2rem ;
+  border:.1px solid var(--gray-color);
+}
+
+.frameworks .card{
+  padding: .5rem 1rem;
+  margin:1rem 0;
+  border:none;
+}
+
+.frameworks .card .details{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border:none;
+}
+
+.frameworks .card .progressbar{
+  width: 100%;
+  height: 3px;
+  background-color: var(--gray-color);
+}
+
+.frameworks .card .progressbar span{
+  height: 100%;
+  background-color: var(--blue-color);
+}
+
+.tools_section{
+  margin:2rem;
+  border:.1px solid var(--border-color);
+  padding: 2rem 1rem;
+}
+
+.tools_section div{
+  display:flex;
+  align-items: center;
+}
+
+.tools_section div h4{
+  font-size: 18px;
+  font-weight: 400;
+  color:var(--white-color);
+  margin-left: 2rem;
+}
+
+.tools_section .icon{
+  font-size: 25px;
+  font-weight: 500;
+  color:var(--blue-color);
+}
+
+.languages{
+  margin:2rem;
+}
+
+.languages .card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "item1 item2"
+    "item3 item3";
+    border:.1px solid var(--border-color);
+}
+
+.item1{
+  grid-area: item1;
+}
+
+.item2{
+  grid-area: item2;
+}
+.item3{
+  grid-area: item3;
+}
+
+
+.languages .card div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin:2rem 0;
+}
+
+.languages .card h4{
+  color:var(--white-color);
+  margin-top:1rem;
+  font-weight: 500;
+}
+
+.languages .card span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  Color:var(--white-color);
+  border-radius: 50%;
+  width:4rem;
+  height:4rem;
+  border:4px solid var(--blue-color);
+}
+
+.form{
+  margin:2rem;
+  padding:2rem 1rem ;
+  border:.1px solid var(--border-color);
+}
+
+.form .form_controller{
+  margin:2rem;
+}
+
+.form_controller input {
+  display: block;
+  width:100%;
+  outline:none;
+  border-bottom: .5px solid var(--border-color);
+  padding-bottom: .5rem;
+  background-color: transparent;
+}
+
+.form_controller textarea{
+  display: block;
+  width:100%;
+  outline:none;
+  border-bottom: .5px solid var(--border-color);
+  padding:.5rem  0 1rem 0;
+  background-color: transparent;
+  height: 7rem;
+}
+
+.form_controller input:placeholder{
+  color:var(--gray-color);
+}
+
+.form .form_controller .submit{
+  display:inline-block;
+  border:2px solid var(--blue-color);
+  color:var(--blue-color);
+  font-weight: 500;
+  padding:.5rem 2rem;
+  text-align: center;
+  margin:auto;
+}
