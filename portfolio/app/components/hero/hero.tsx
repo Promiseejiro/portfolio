@@ -31,11 +31,8 @@ const Hero = () => {
   
           <div className={classes.content}>
             <p className={classes.discription}>
-              the person that set the exam can stop or assit the people to start
-              exam if the have issue. when a user logs out before time the person
-              setting the exam can help them. image can also be added as
-              questions. you can also send result with correct option as results
-              to user
+            I'm Emosivbe promise. A tech savant with
+              mastery of contemporary tools and technologies, fashioning software solutions that prioritize seamless user experiences and improve lives.
             </p>
             <div className={classes.ul_container}>
               <ul className={classes.first_ul}>
