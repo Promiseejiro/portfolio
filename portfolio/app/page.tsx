@@ -17,6 +17,13 @@ import { GoDotFill } from "react-icons/go";
 //css
 import classes from "./page.module.css";
 
+//fonts
+import { Poppins } from 'next/font/google'
+ 
+ const poppins = Poppins({
+  subsets: ['latin'],
+  weight: '400'
+})
 export default function Home() {
   let { message } = useContext(ThemeContext);
  
@@ -106,8 +113,10 @@ export default function Home() {
   return (
     <div>
       <Head>
+         
         <title>Portfolio</title>
       </Head>
+      <body className={poppins.className}>
       <div className={classes.main_container}>
         <div>
           <Navbar />
@@ -215,6 +224,7 @@ export default function Home() {
           </form>
         </div>
       </div>
+      </body>
     </div>
   );
 }

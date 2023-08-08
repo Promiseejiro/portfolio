@@ -6,12 +6,12 @@ const Service = () => {
   const services = [
     {
       heading: "Web development",
-      text: "when a user logs out before time the person setting the exam can help then",
+      text: "Design  & deployment of effective/efficient web app with seamless user experience",
       icon: <BiCodeAlt className={classes.icons} />,
     },
     {
       heading: "Consultant",
-      text: "Contact me to discuss that convinced idea, while were bring it to reality with my tech skills",
+      text: "Hit me up let's discuss those brilliant idea, while i help you bring it to reality with my tech skills",
       icon: <MdCall className={classes.icons} />,
     },
   ];
