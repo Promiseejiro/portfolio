@@ -10,14 +10,10 @@
   --white-color: #fff;
   --border-color:rgba(208,210,210,.5);
   --overlay-color:rgba(16,16,16,.8);
-  --font-family:"Poppins"  sans-serif;
 }
 
 *{
   padding: 0;
   margin:0;
   box-sizing: border-box;
-}
-h1,h2,h3,h4,h5,p,span,a{
-  font-family: var(--font-family);
 }
