@@ -15,8 +15,14 @@ const Navbar =()=>{
 let { message } = useContext(ThemeContext)
  
   return (
-    <div className={classes.wrapper}> 
-    <h3>Portfolio</h3>
+    <div className={classes.nav_wrapper}> 
+    <h2 suppressHydrationWarning >Portfolio</h2>
+<div className={classes.desktopnav}> <ul >
+ <li> <Link href="">Home</Link> </li>
+ <li> <Link href="">Resume</Link> </li>
+ <li> <Link href="">Project</Link> </li>
+ <li> <Link href="">Contact</Link> </li></ul></div>
+
  {!openNav &&(  <FaBars onClick={navHandler} className={classes.nav_icon}/>)}
   {openNav && (  <FaTimes onClick={navHandler} className={classes.nav_icon}/>)}
     {
@@ -26,8 +32,6 @@ let { message } = useContext(ThemeContext)
  <li> <Link href="">Resume</Link> </li>
  <li> <Link href="">Project</Link> </li>
  <li> <Link href="">Contact</Link> </li></ul>
-  
-  
   </div>
   )
     }

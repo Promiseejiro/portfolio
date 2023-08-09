@@ -1,0 +1,50 @@
+.tools_section {
+  margin: 2rem;
+  padding: 2rem 1rem;
+}
+
+.section_section_card_container {
+  border: 0.1px solid var(--border-color);
+}
+
+.tools_section div {
+  display: flex;
+  align-items: center;
+  margin: .5rem 0;
+}
+
+.tools_section div h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white-color);
+  white-space: nowrap;
+}
+
+.first_icon{
+     font-size: 25px;
+     font-weight: 500;
+     color: var(--blue-color);
+     margin: 0 1rem;
+}
+
+.tools_section .icon {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--blue-color);
+  margin: 0 1rem;
+}
+
+@media (min-width: 700px) {
+  .tools_section {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .tools_section div{
+     justify-content: center;
+  }
+
+  .first_icon{
+     display: none;
+  }
+}
